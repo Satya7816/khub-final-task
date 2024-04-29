@@ -1,0 +1,97 @@
+.upload-container {
+  max-width: 400px; /* Decrease the width */
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-container {
+  margin-bottom: 20px;
+}
+
+.file-upload-container input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+
+.datasets-container {
+  margin-bottom: 20px;
+  max-height: 300px; /* Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.datasets-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.datasets-container ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.datasets-container ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.data-container {
+  margin-bottom: 20px;
+}
+
+.data-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-container th,
+.data-container td {
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+}
+
+.data-container th {
+  background-color: #f0f0f0;
+  text-align: left;
+}
+
+.records-per-page {
+  margin-bottom: 20px;
+}
+
+.records-per-page label {
+  margin-right: 10px;
+}
+
+.records-per-page select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
